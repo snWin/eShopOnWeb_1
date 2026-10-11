@@ -50,7 +50,7 @@ jobs:
         
   # Use Bicep to deploy infrastructure + Publish webapp 
       #checkout the repository
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       #prepare runner for desired .net version SDK
       - name: Setup .NET
         uses: actions/setup-dotnet@v5
